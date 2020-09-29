@@ -1,4 +1,4 @@
-
+/*2F2F2F*/
 footer{
     background-color: #797A7E;
     color: whitesmoke;
@@ -10,50 +10,25 @@ h1{
     color:whitesmoke;
     font-size: 40px;
     font-weight: 500;
-    text-align: center;
     margin-bottom: auto;
 }
-header{
-    background-color: #3F3E40;
-}
+
 
 .claro{
     color: whitesmoke;
 }
 .histroria{
-    text-align: center;
-    background-color: #434549;
+    
+    background-color: #1C1C1C;
     color: whitesmoke;
     
     
 }
-.cursiva{
-    font-style: italic;
-    font-size: 20px;
-    
-}
-
-
-#butto{
-   padding:0; 
-}
-#button li{
-    display: inline;
-}
-#button li a {
-    font-family: Arial;
-    font-size: 18px;
-    text-decoration: none;
-    float: right;
-    padding: 15px;
-    background-color: #6B6890;
-    color: #fff;
-    }
 
     .inicio{
-        text-align: center;
-        background-color: #B9B8C4;
-        font-size: 22px;
+      
+        background-color: #1C1C1C ;
+        font-size: 20px;
         
     }
     .sub{
@@ -63,23 +38,27 @@ header{
         
     }
 
-    .primer{
-        background-color: #C8CACA;
-        text-align: center;
-        font-size: 22px;
-        
-    }
-    .dostres{
-        text-align: center;
-        background-color: #C8CACA;
-        font-size: 20px;
-    }
-    .regis{
-        background-color: #818789;
-    }
-
-    #iz{
-        
-        text-align: left;
-    }
  
+ 
+
+
+ .letra{
+     color: #fff;
+     font-size: 20px;
+ }
+ .colornav{
+     background-color: #000000;
+ }
+ .oscuro{
+    background-color: #1C1C1C;
+ }
+ .mitad{
+     text-align: center;
+ }
+ .secun{
+     background-color: #210000  ;
+ }
+ .botones{
+     width: 100px;
+     height: 100px;
+ }

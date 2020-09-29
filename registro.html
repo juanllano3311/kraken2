@@ -4,49 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+    <link rel="icon" type="image/jpg" href="img/logo.jpg">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
-<body class="regis">
-    <header>
-        <h1>Regístrate Aquí</h1>
-        <nav class="menu">
-        <ul id="button">
-            <li><a href="krakenllylll.html">Kreken II Y III</a></li>
-            <li><a href="primeralbum.html">Primer álbum</a></li>
-            <li><a href="historia.html">Historia</a></li>
-            <li><a href="index.html">Inicio</a></li>
-            
-        </ul>
-    </nav>
-        <hr>
+<body class="oscuro">
+    <header class="colornav">
+        <h1>Registate Aquí</h1>
+      <nav class="menu">
+        <ul class="nav nav-tabs ">
+            <li class="nav-item">
+              <a class="nav-link  " href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prieralbum.html">Biografias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="krakenllylll.html">Albumes Conocidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="registro.html ">Registro</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+        </ul>   
+</nav>
+        
     </header>
 
-    <main>
-        <br>
-        <br>
-        <br>
-       
-        <form>
-            <input type="email" placeholder="Email Adress">
-            <input type="password" placeholder="Contraseña">
-            <input type="text" placeholder="nombres y apellidos">
-            <input type="submit">
-            
-        </form>
-        <P class="cursiva">en la prestación de los servicios podría ser necesario compartir datos con nuestros auditores, aseguradores y/o asesores profesionales. En estos casos, se firmarán los correspondientes contratos que autoricen el tratamiento de los datos por parte de estos terceros.  <input type="checkbox"></P>
-        <br>
-        <br>
-        <br>
+    <main class="secun">
+        <div class="container oscuro">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4" class="letra">Nombre Completo</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4" class="letra">Número de Documento</label>
+                            <input type="number" class="form-control" >
+                          </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4" class="letra">Usuario</label>
+                              <input type="text" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4" class="letra">Contraseña</label>
+                              <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                          </div>
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4" class="letra">Correo</label>
+                              <input type="email" class="form-control" id="inputEmail4" placeholder="llanotaborda@gmail.com">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4" class="letra">Número de contacto</label>
+                              <input type="number" class="form-control" id="inputPassword4">
+                            </div>
+                          </div>
+                        
+                      
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4" class="letra">Dirección</label>
+                              <input type="text" class="form-control" id="inputEmail4" placeholder="Ej: cl 6sur #79-150">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4" class="letra">Ciudad</label>
+                              <input type="text" class="form-control" id="inputPassword4" placeholder="Medellín">
+                            </div>
+                          </div>
+                       
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label letra" for="gridCheck">
+                              Acepto Condiciones.
+                            </label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Registrar.</button>
+                      </form>
+                </div>
+            </div>
+        </div>
    
         
 
-        <hr>
     </main>
+    <footer class="centro">
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <p>Juan Sebastian Llano Taborda &copy;</p>
+            <p>llanotaborda@gmail.com</p>
+            <p>Núm.contacto: 3007166045</p>
+            <p>2020, Colombia</p>
+          </div>
 
-    <footer>
-        <p>Juan Sebastian Llano Taborda &copy;</p>
-        <p>llanotaborda@gmail.com</p>
-        <p>2020, Colombia</p>
+          <div class="col-12 col-md-2">
+           <a href="https://www.facebook.com/juansebastian.llanotabordascout.5"><img src="img/facebook.png" alt="facebook" class="botones"></a>
+            
+          </div>
+          <div class="col-12 col-md-2">
+            <a href="https://www.instagram.com/j_u_a_n__s_e_b_a_s_t_i_a_n/?hl=es-la"><img src="img/instagram.png" alt="insta" class="botones"></a>
+        </div>
+        <div class="col-12 col-md-2">
+          <a href="https://www.youtube.com/channel/UC8LRTl5zBvs76E34bw4VQug?view_as=subscriber"><img src="img/youtube.png" alt="you" class="botones"></a>
+      </div>
+
+        </div>
+      </div>
+    
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
